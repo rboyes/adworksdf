@@ -47,11 +47,7 @@
 				"precision": 23,
 				"scale": 3
 			}
-		],
-		"typeProperties": {
-			"schema": "SalesLT",
-			"table": "Address"
-		}
+		]
 	},
 	"type": "Microsoft.DataFactory/factories/datasets"
 }
