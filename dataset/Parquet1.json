@@ -8,6 +8,9 @@
 		"parameters": {
 			"parfile": {
 				"type": "string"
+			},
+			"parfolder": {
+				"type": "string"
 			}
 		},
 		"annotations": [],
@@ -19,7 +22,7 @@
 					"value": "@dataset().parfile",
 					"type": "Expression"
 				},
-				"folderPath": "db",
+				"folderPath": "@dataset().parfolder",
 				"fileSystem": "adworks"
 			},
 			"compressionCodec": "snappy"

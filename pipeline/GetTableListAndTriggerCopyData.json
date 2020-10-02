@@ -48,7 +48,10 @@
 					},
 					"waitOnCompletion": false,
 					"parameters": {
-						"tableList": "@activity('LookupTableList').output.value"
+						"tableList": {
+							"value": "@activity('LookupTableList').output.value",
+							"type": "Expression"
+						}
 					}
 				}
 			}

@@ -68,7 +68,8 @@
 										"parfile": {
 											"value": "@item().TABLE_NAME",
 											"type": "Expression"
-										}
+										},
+										"parfolder": "@item().TABLE_SCHEMA"
 									}
 								}
 							]
