@@ -1,0 +1,14 @@
+{
+	"name": "AzureDataLakeStore1",
+	"properties": {
+		"description": "Azure data lake storage gen1",
+		"annotations": [],
+		"type": "AzureDataLakeStore",
+		"typeProperties": {
+			"dataLakeStoreUri": "https://adworks.azuredatalakestore.net/webhdfs/v1",
+			"tenant": "a603898f-7de2-45ba-b67d-d35fb519b2cf",
+			"subscriptionId": "a4ed9714-c08a-4c4e-8ae1-6456cf51ff97",
+			"resourceGroupName": "datascience-hr"
+		}
+	}
+}
