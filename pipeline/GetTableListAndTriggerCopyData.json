@@ -4,7 +4,7 @@
 		"activities": [
 			{
 				"name": "LookupTableList",
-				"description": "Retrieve table list",
+				"description": "Retrieve table list from adworks",
 				"type": "Lookup",
 				"dependsOn": [],
 				"policy": {
