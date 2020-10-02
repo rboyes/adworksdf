@@ -22,7 +22,10 @@
 					"value": "@dataset().parfile",
 					"type": "Expression"
 				},
-				"folderPath": "@dataset().parfolder",
+				"folderPath": {
+					"value": "@dataset().parfolder",
+					"type": "Expression"
+				},
 				"fileSystem": "adworks"
 			},
 			"compressionCodec": "snappy"
